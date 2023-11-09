@@ -125,7 +125,7 @@ def build_questionnaire(filename):
 
 
 def QCM(questionnaire:list, correction:str):
-    user_score = 0
+    user_score = 1000
     total_score = 0
     
     # Print chaque question avec ses propositions de réponses et attends la réponse du user
