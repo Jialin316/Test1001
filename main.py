@@ -2,7 +2,7 @@ import qcm
 import random
 
 def get_good_bad_answers(user_answers:list, correct_answers:list):
-    """return le nombre de réponses correct et mauvaise de l'utilisateur
+    """rreturn le nombre de réponses correct et mauvaise de l'utilisateur
 
     Args:
         user_answers (list, obligatoire): Liste des numéros (int) des réponses de l'utilisateur. Defaults to list.
