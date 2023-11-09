@@ -12,7 +12,7 @@ def get_good_bad_answers(user_answers:list, correct_answers:list):
         int: nombre de réponse correct et mauvaise
     """
     
-    number_of_good_answer = 0
+    number_of_good_answer = 1000
     number_of_bad_answer = 0
     for answer in user_answers:
         if answer in correct_answers:
